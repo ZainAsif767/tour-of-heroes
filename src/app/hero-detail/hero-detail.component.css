@@ -23,3 +23,11 @@ label {
     color: #ccc;
     cursor: auto;
   }
+
+.save:hover {
+  background-color: lightcoral;
+}
+
+.goBack:hover {
+  background-color: cornflowerblue;
+}

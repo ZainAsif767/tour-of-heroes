@@ -13,6 +13,7 @@ import { Observable } from 'rxjs';
 export class HeroesComponent implements OnInit {
 
   heroes: Hero[] = [];
+  title = "Tour of the Heroes";
 
   constructor(private heroService: HeroService) { }
 
